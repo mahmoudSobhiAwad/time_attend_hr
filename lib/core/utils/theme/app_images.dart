@@ -6,4 +6,7 @@ class AppImages {
   static const String arrowOut = 'assets/images/arrow_out.svg';
   static const String breakTimeIn = 'assets/images/break_time_in.svg';
   static const String breakTimeOut = 'assets/images/break_time_out.svg';
+  static const String fingerPrint = 'assets/images/finger_print.svg';
+  static const String onboarding = 'assets/images/onboarding.png';
+  
 }
