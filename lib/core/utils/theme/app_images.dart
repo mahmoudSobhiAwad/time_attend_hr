@@ -6,4 +6,6 @@ class AppImages {
   static const String arrowOut = 'assets/images/arrow_out.svg';
   static const String breakTimeIn = 'assets/images/break_time_in.svg';
   static const String breakTimeOut = 'assets/images/break_time_out.svg';
+  static const String show = 'assets/images/show.svg';
+  static const String hide = 'assets/images/hide.svg';
 }
