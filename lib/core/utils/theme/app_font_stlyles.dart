@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:time_attend_hr/core/utils/constants/var_constants.dart';
-import 'package:time_attend_hr/core/utils/functions/get_responsive_font_size.dart';
+
 
 abstract class AppFontStyle {
   static TextStyle regualr8(BuildContext context) => TextStyle(
