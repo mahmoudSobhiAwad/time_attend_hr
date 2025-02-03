@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 abstract class AppFontStyle {
   static TextStyle regualr8(BuildContext context) => TextStyle(
         fontFamily: fontFamily,
@@ -29,14 +28,10 @@ abstract class AppFontStyle {
         color: const Color(0xff064061),
       );
 
-
-
   static TextStyle regular12(BuildContext context) => TextStyle(
         fontFamily: fontFamily,
         fontSize: getResponiveFontSize(context, baseFontSize: 12),
         fontWeight: FontWeight.w400,
         color: const Color(0xffAAAAAA),
       );
-
-
 }
