@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:time_attend_hr/core/utils/theme/app_font_stlyles.dart';
@@ -21,7 +22,7 @@ class SinglePartInLastMovementItem extends StatelessWidget {
             SvgPicture.asset(model.iconPath),
             Flexible(
               child: Text(
-                model.labelName,
+                model.labelName.tr(),
                 style: AppFontStyle.regualr8(context),
               ),
             ),

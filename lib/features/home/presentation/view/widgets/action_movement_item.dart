@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:time_attend_hr/core/utils/theme/app_colors.dart';
@@ -32,10 +33,12 @@ class ActionMovementItem extends StatelessWidget {
                   backgroundColor: model.backgroundColor,
                   radius: 10,
                   child: SvgPicture.asset(model.iconPath)),
-              Text(
-                model.labelName,
-                style: AppFontStyle.regular12(context),
-              )
+              Flexible(
+                child: Text(
+                  model.labelName.tr(),
+                  style: AppFontStyle.regular12(context),
+                ),
+              ),
             ],
           ),
           Text(

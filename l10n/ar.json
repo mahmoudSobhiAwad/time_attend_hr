@@ -1,0 +1,20 @@
+{
+    "welcom_message": "مرحبًا، أسامة! يوم مثمر لك 🎯",
+    "login_attendance": "تسجيل الحضور",
+    "logout_attendance": "تسجيل الانصراف",
+    "break_in": "دخول الاستراحة",
+    "break_out": "الخروج من الاستراحة",
+    "last_movements": "آخر الحركات",
+    "date_of_day": "تاريخ اليوم",
+    "login_time": "وقت التسجيل",
+    "movement_type": "نوع الحركة الحالية",
+    "login_movement": "تسجيل دخول",
+    "logout_movement": "تسجيل خروج",
+    "morning_time": "صباحًا",
+    "afternoon_time": "ظهرًا",
+    "evening_time": "مساءً",
+    "time_in_minutes_less":"دقيقة",
+    "time_in_minutes_more":"دقائق",
+    "time_in_hour_more":"ساعات",
+    "time_in_hour_less":"ساعة"
+}

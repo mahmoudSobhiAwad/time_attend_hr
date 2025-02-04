@@ -1,0 +1,20 @@
+{
+    "welcom_message": "Welcome, Osama! Have a productive day 🎯",
+    "login_attendance": "Check-in",
+    "logout_attendance": "Check-out",
+    "break_in": "Start Break",
+    "break_out": "End Break",
+    "last_movements": "Recent Activities",
+    "date_of_day": "Today's Date",
+    "login_time": "Check-in Time",
+    "movement_type": "Current Movement Type",
+    "login_movement": "Sign In",
+    "logout_movement": "Sign Out",
+    "morning_time": "In the Morning",
+    "afternoon_time": "In the Afternoon",
+    "evening_time": "In the Evening",
+    "time_in_minutes_less":"Minutes",
+    "time_in_minutes_more":"Minutes",
+    "time_in_hour_more":"Hours",
+    "time_in_hour_less":"Hour"
+}

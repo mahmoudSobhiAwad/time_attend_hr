@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:time_attend_hr/core/utils/theme/app_font_stlyles.dart';
 import 'package:time_attend_hr/features/home/presentation/view/widgets/home_app_bar.dart';
@@ -26,14 +27,14 @@ class HomeBody extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              "آخر الحركات",
+              "last_movements".tr(),
               style: AppFontStyle.medium14(context),
             ),
           ),
-          // this list contain all last movements 
+          // this list contain all last movements
           Expanded(
               child: ListView.separated(
-                padding: EdgeInsets.only(bottom: 8),
+                  padding: EdgeInsets.only(bottom: 8),
                   itemBuilder: (context, index) {
                     return LastMovementItem();
                   },

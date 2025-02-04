@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:time_attend_hr/core/utils/theme/app_font_stlyles.dart';
 
@@ -15,7 +16,7 @@ class WelcomMessageWithDate extends StatelessWidget {
         spacing: 4,
         children: [
           Text(
-            "مرحبًا، أسامة! يوم مثمر لك 🎯",
+            "welcom_message".tr(),
             style: AppFontStyle.semiBold16(context),
           ),
           Text(
